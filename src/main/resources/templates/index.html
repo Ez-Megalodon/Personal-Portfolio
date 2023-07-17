@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ezra Portfolio</title>
+    <link rel="stylesheet" th:href="@{/css/resets.css}">
+    <link rel="stylesheet" th:href="@{/css/layout.css}">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+<div class="page-wrapper">
+    <nav>
+        <ul id="nav-bar" class="justify-end">
+            <li class="dropdown">
+                <a class="dropbtn">Dropdown</a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div class="container grow">
+        <div class="row">
+            <div class="column shrink" style="background-color: deeppink">
+                <div class="img-wrapper">
+                    <img src="/images/headshot.jpg" style="height: 20em" alt="professional photo">
+                </div>
+            </div>
+            <div class="column" style="background-color: deepskyblue">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ducimus eius id, minima perspiciatis sapiente suscipit? A ad amet deleniti, eius esse labore, laudantium nulla odit qui, sunt ullam voluptates.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
