@@ -14,10 +14,13 @@ body {
 #nav-bar li {
     float: left;
 }
+.dropbtn{
+    color: white;
+}
 
 #nav-bar li a, .dropbtn {
     display: inline-block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,7 +31,7 @@ body {
 }
 
 #nav-bar li.dropdown {
-    display: inline-block;
+    display: inline;
 }
 
 .dropdown-content {
