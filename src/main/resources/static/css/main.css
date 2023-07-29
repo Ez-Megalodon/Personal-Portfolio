@@ -14,13 +14,13 @@ body {
 #nav-bar li {
     float: left;
 }
-.dropbtn{
+.dropbtn {
     color: white;
 }
 
-#nav-bar li a, .dropbtn {
+#nav-bar li a {
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
